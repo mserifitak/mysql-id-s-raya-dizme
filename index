@@ -1,0 +1,9 @@
+
+/// SET @count değerini katan başlamak isteiyorsam ona göre ayarlayacağım
+
+/// tablo1 isimli tabloyu değişrtirmek istediğim tablonun adını yazacağım
+
+
+
+SET @count = 0;
+UPDATE `tablo1` SET `id` = @count:= @count + 1;
